@@ -1,1 +1,64 @@
-<mxfile host="www.draw.io" modified="2020-01-15T10:46:37.481Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" version="12.5.3" etag="4OEGyvA7lPKEOmNPHakS" type="github"><diagram id="pVj-Y4fNHj3FhJbF3Jaf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-15T11:01:38.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="cFOTg1WQ47LOSWmKfSly" version="12.5.3" type="github">
+  <diagram id="pVj-Y4fNHj3FhJbF3Jaf" name="Page-1">
+    <mxGraphModel dx="946" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-1" value="UNDERLAY" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-2" value="OVERLAY" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-3" value="PXE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-4" value="Host OS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-5" value="PACKAGING" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-6" value="AUTOMATION" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-7" value="APPLICATION" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="240" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-8" value="DEPLOYMENT" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="720" y="90" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-9" value="BOOTSTRAP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-10" value="Disk Partitioning" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-13" value="BOOTSTRAP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-14" value="Ansible" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-15" value="Accounts" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-16" value="Storage" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-19" value="Kubernetes Cluster" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-20" value="Cluster Hardening" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-21" value="Underly E2E" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Vx634bo5IBI-FCDCDEc4-22" value="Bootstrap entrypoint" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="130" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
